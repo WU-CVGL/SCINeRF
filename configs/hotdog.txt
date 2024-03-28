@@ -1,0 +1,36 @@
+expname = hotdog
+basedir = ./logs
+datadir = ./data/hotdog
+maskdir = ./data/hotdog/mask_25.npy
+measdir = ./data/hotdog/meas_25.npy
+dataset_type = llff
+h = 400
+w = 400
+f = 514.75003379
+
+factor = 2
+
+linear = False
+rotation_perturb = True
+
+novel_view = True
+factor_pose_novel = 2.0
+i_novel_view = 200000
+
+
+
+N_rand = 5000
+deblur_images = 8
+
+N_samples = 64
+N_importance = 64
+
+use_viewdirs = True
+raw_noise_std = 1.0
+
+load_weights = False
+weight_iter = 200000
+
+i_img = 25000
+i_video = 200000
+i_weights = 10000

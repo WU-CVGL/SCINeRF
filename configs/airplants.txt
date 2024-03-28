@@ -1,0 +1,36 @@
+expname = airplants
+basedir = ./logs
+datadir = ./data/airplants
+maskdir = ./data/airplants/mask_25.npy
+measdir = ./data/airplants/meas_25.npy
+dataset_type = llff
+h = 512
+w = 512
+f = 589.14567726
+
+
+
+factor = 4
+
+linear = False
+
+novel_view = True
+factor_pose_novel = 2.0
+i_novel_view = 200000
+
+N_rand = 5000
+deblur_images = 8
+
+N_samples = 64
+N_importance = 64
+
+
+use_viewdirs = True
+raw_noise_std = 1.0
+
+load_weights = False
+weight_iter = 200000
+
+i_img = 25000
+i_video = 200000
+i_weights = 10000

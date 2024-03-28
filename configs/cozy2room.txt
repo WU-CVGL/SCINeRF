@@ -1,0 +1,31 @@
+expname = cozy2room
+basedir = ./logs
+datadir = ./data/cozy2room
+dataset_type = llff
+maskdir = ./data/cozy2room/mask_25.npy
+measdir = ./data/cozy2room/meas_25.npy
+f = 162.09754231
+
+factor = 1
+
+linear = True
+
+novel_view = True
+factor_pose_novel = 2.0
+i_novel_view = 200000
+
+N_rand = 5000
+deblur_images = 8
+
+N_samples = 64
+N_importance = 64
+
+use_viewdirs = True
+raw_noise_std = 1.0
+
+load_weights = False
+weight_iter = 200000
+
+i_img = 25000
+i_video = 200000
+i_weights = 10000

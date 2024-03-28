@@ -1,0 +1,34 @@
+expname = truck
+basedir = ./logs
+datadir = ./data/truck
+dataset_type = llff
+maskdir = ./data/truck/mask.npy
+measdir = ./data/truck/meas.npy
+h = 750
+w = 1024
+f = 1228.8
+
+factor = 1
+
+linear = False
+
+novel_view = True
+factor_pose_novel = 2.0
+i_novel_view = 200000
+
+N_iters = 100000
+N_rand = 5000
+deblur_images = 8
+
+N_samples = 64
+N_importance = 64
+
+use_viewdirs = True
+raw_noise_std = 1.0
+
+load_weights = False
+weight_iter = 100000
+
+i_img = 25000
+i_video = 100000
+i_weights = 10000
