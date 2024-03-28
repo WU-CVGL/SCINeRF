@@ -69,7 +69,7 @@ After training, you can get retrieved images from SCI measurement.
 
 `meas.npy`: This file is the SCI measurement, i.e., the compressed image.
 
-Put two files under a folder at  `./data'. Then create a new config file in the `./configs' folder, make sure that the data directory is correct. Finally, modify he h, w, and f parameters, which represents image height, width and focal length of the camera. 
+Put two files under a folder at  `./data`. Then create a new config file in the `./configs` folder, make sure that the data directory is correct. Finally, modify he h, w, and f parameters in your config file, which represents image height, width and focal length of the camera. 
 
 
 
