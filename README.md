@@ -42,7 +42,7 @@ pip install -r requirements.txt
 
 You can download the data [here](https://drive.google.com/file/d/1V8JN2mtQqR69eg3ct0UxWUUj5qbBOvNY/view?usp=sharing).
 
-Each scene contains an SCI measurement in 'meas.npy', and corresponding masks in 'mask.npy' (in some scenes they are 'mask_25.npy" and 'meas_25.npy").
+Each scene contains an SCI measurement in 'meas.npy', and corresponding masks in 'mask.npy' (in some scenes they are 'mask_25.npy" and 'meas_25.npy').
 
 ### 3. Configs
 
