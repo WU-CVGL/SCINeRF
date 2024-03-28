@@ -1,6 +1,7 @@
 # SCINeRF
 [CVPR2024] SCINeRF: Neural Radiance Fields from a Snapshot Compressive Image
 
+![teaser](./doc/fig1_8.jpg)
 
 This is an official PyTorch implementation of the paper SCINeRF: Neural Radiance Fields from a Snapshot Compressive Image (CVPR 2024). Authors: [Yunhao Li](https://yunhaoli2020.github.io/), Xiaodong Wang, Ping Wang, [Xin Yuan](https://sites.google.com/site/eiexyuan/) and [Peidong Liu](https://ethliup.github.io/).
 
@@ -16,12 +17,11 @@ Codes and Data will be available soon!
 ## Novel View Synthesis
 
 ## Image Restoration Result
-
-
-
+![teaser2](./doc/fig1_7(2).jpg)
 
 ## Method overview
 
+![method](./doc/fig1_10.jpg)
 When capturing the scene, the snapshot compressive imaging (SCI) camera moves alongside a trajectoy and capture the scene into an SCI measurement.
 We follow the real physical image formation process of snapshot compressive imaging (SCI) to synthesize SCI measurement from NeRF. Both NeRF and the motion trajectories are estimated by maximizing the photometric consistency between the synthesized sci measurement and the real measurement.
 
