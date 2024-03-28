@@ -7,7 +7,6 @@ This is an official PyTorch implementation of the paper SCINeRF: Neural Radiance
 
 SCINeRF retrieves the 3D scenes, together with compressed images, from a single temporal-compressed snapshot compressive image.
 
-Codes and Data will be available soon!
 
 ## ✨News
 
