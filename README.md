@@ -15,7 +15,7 @@ Codes and Data will be available soon!
 ⚡ **[2024.02]** Our paper has been accepted by CVPR 2024!
 
 ## Novel View Synthesis
-![method](airplants_25_spiral_200000_rgb-ezgif.com-video-to-gif-converter.gif)
+![method](https://github.com/WU-CVGL/SCINeRF/blob/main/doc/airplants_25_spiral_200000_rgb-ezgif.com-video-to-gif-converter.gif)
 
 ## Image Restoration Results
 ![method](./doc/fig1_8.jpg)
