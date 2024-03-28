@@ -22,6 +22,7 @@ Codes and Data will be available soon!
 ## Method overview
 
 ![method](./doc/fig1_10.jpg)
+![method](./doc/fig2_2.jpg)
 When capturing the scene, the snapshot compressive imaging (SCI) camera moves alongside a trajectoy and capture the scene into an SCI measurement.
 We follow the real physical image formation process of snapshot compressive imaging (SCI) to synthesize SCI measurement from NeRF. Both NeRF and the motion trajectories are estimated by maximizing the photometric consistency between the synthesized sci measurement and the real measurement.
 
