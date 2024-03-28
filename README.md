@@ -17,7 +17,8 @@ Codes and Data will be available soon!
 ## Novel View Synthesis
 <div><video autoplay loop controls src="./doc/factory6_linear_spiral_200000_rgb.mp4" muted="true"></video></div>
 
-
+## Image Restoration Results
+![method](./doc/fig1_8.jpg)
 ## Method overview
 ![method](./doc/fig2_2.jpg)
 When capturing the scene, the snapshot compressive imaging (SCI) camera moves alongside a trajectoy and capture the scene into an SCI measurement.
