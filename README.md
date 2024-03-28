@@ -17,7 +17,8 @@ Codes and Data will be available soon!
 ## Novel View Synthesis
 <img src="https://github.com/WU-CVGL/SCINeRF/blob/main/doc/airplants_25_spiral_200000_rgb-ezgif.com-video-to-gif-converter.gif" width="30%">
 
-![factory](https://github.com/WU-CVGL/SCINeRF/blob/main/doc/factory_all_spiral_200000_rgb-ezgif.com-video-to-gif-converter.gif)
+<img src="https://github.com/WU-CVGL/SCINeRF/blob/main/doc/factory_all_spiral_200000_rgb-ezgif.com-video-to-gif-converter.gif" width="25.6%">
+
 
 ## Image Restoration Results
 ![method](./doc/fig1_8.jpg)
