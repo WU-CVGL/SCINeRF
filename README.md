@@ -66,7 +66,7 @@ After training, you can get retrieved images from SCI measurement.
 
 ## Your own data
 
-`mask.npy`: This file is the binary masks during the SCI imaging process.
+`mask.npy`: This file is the binary masks you used during the SCI imaging process.
 
 `meas.npy`: This file is the SCI measurement, i.e., the compressed image.
 
