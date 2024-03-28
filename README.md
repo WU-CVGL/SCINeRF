@@ -26,6 +26,43 @@ When capturing the scene, the snapshot compressive imaging (SCI) camera moves al
 We follow the real physical image formation process of snapshot compressive imaging (SCI) to synthesize SCI measurement from NeRF. Both NeRF and the motion trajectories are estimated by maximizing the photometric consistency between the synthesized sci measurement and the real measurement.
 
 
+## Quickstart
+
+### 1. Setup environment
+
+```
+git clone git@github.com:WU-CVGL/SCINeRF.git
+cd SCINeRF
+pip install -r requirements.txt
+```
+
+### 2. Download datasets
+
+You can download the data [here](https://westlakeu-my.sharepoint.com/:f:/g/personal/cvgl_westlake_edu_cn/EsgdW2cRic5JqerhNbTsxtkBqy9m6cbnb2ugYZtvaib3qA?e=bjK7op).
+
+Each scene contains an SCI measurement in 'meas.npy', and corresponding masks in 'mask.npy' (in some scenes they are 'mask_25.npy" and 'meas_25.npy").
+
+### 3. Configs
+
+Change the data path and other parameters (if needed) in `configs/cozy2room.txt`. We use *cozy2room* scene as an example.
+
+### 4. Demo with our pre-trained model
+
+You can test our code and render retrieved images from compressed image with the provided checkpoints. To do this, you should first download the checkpoints [here](https://westlakeu-my.sharepoint.com/:f:/g/personal/cvgl_westlake_edu_cn/EsgdW2cRic5JqerhNbTsxtkBqy9m6cbnb2ugYZtvaib3qA?e=bjK7op), then put the weight file under the corresponding logs folder `./logs/cozy2room-linear`, and then change the parameter `load_weights=True` in `cozy2room.txt`, finally run
+
+```
+python train_cacti3.py --config configs/cozy2room.txt
+```
+
+### 5. Training
+
+```
+python train_cacti3.py --config configs/cozy2room.txt
+```
+
+After training, you can get retrieved images from SCI measurement.
+
+
 
 
 ## Acknowledgment
