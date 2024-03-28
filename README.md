@@ -21,7 +21,7 @@ Codes and Data will be available soon!
 
 
 ## Image Restoration Results
-![method](./doc/fig1_8.jpg)
+![results](./doc/results_github.jpg)
 ## Method overview
 ![method](./doc/fig2_2.jpg)
 When capturing the scene, the snapshot compressive imaging (SCI) camera moves alongside a trajectoy and capture the scene into an SCI measurement.
