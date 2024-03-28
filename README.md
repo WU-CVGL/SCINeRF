@@ -16,8 +16,6 @@ Codes and Data will be available soon!
 
 ## Novel View Synthesis
 <div><video autoplay loop controls src="./doc/factory6_linear_spiral_200000_rgb.mp4" muted="true"></video></div>
-## Image Restoration Result
-![teaser](./doc/fig1_8.jpg)
 
 
 ## Method overview
