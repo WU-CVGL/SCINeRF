@@ -1,9 +1,10 @@
-# SCINeRF
-[CVPR2024] SCINeRF: Neural Radiance Fields from a Snapshot Compressive Image
+# SCINeRF: Neural Radiance Fields from a Snapshot Compressive Image
+
+**[Yunhao Li](https://yunhaoli2020.github.io/), Xiaodong Wang, Ping Wang, [Xin Yuan](https://sites.google.com/site/eiexyuan/) and [Peidong Liu](https://ethliup.github.io/) [CVPR 2024]**
 
 ![teaser2](./doc/fig1_7(2).jpg)
 
-This is an official PyTorch implementation of the paper SCINeRF: Neural Radiance Fields from a Snapshot Compressive Image (CVPR 2024). Authors: [Yunhao Li](https://yunhaoli2020.github.io/), Xiaodong Wang, Ping Wang, [Xin Yuan](https://sites.google.com/site/eiexyuan/) and [Peidong Liu](https://ethliup.github.io/).
+This is an official PyTorch implementation of the paper SCINeRF: Neural Radiance Fields from a Snapshot Compressive Image (CVPR 2024).
 
 SCINeRF retrieves the 3D scenes, together with compressed images, from a single temporal-compressed snapshot compressive image.
 
