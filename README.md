@@ -71,6 +71,19 @@ After training, you can get retrieved images from SCI measurement.
 
 Put two files under a folder at  `./data`. Then create a new config file in the `./configs` folder, make sure that the data directory is correct. Finally, modify he h, w, and f parameters in your config file, which represents image height, width and focal length of the camera. 
 
+## Citation
+
+If you find this useful, please consider citing our paper:
+
+```bibtex
+@InProceedings{li2024scinerf,
+    author    = {Li, Yunhao and Wang, Xiaodong and Wang, Ping and Yuan, Xin and Liu, Peidong},
+    title     = {{SCINeRF: Neural Radiance Fields from a Snapshot Compressive Image}},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2024}
+}
+```
 
 
 ## Acknowledgment
