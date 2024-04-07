@@ -15,7 +15,8 @@ SCINeRF retrieves the 3D scenes, together with compressed images, from a single 
 
 
 ⚡ **[2024.02]** Our paper has been accepted by CVPR 2024!
-⚡ **[2024.04]** Our paper has been selected as CVPR 2024 Highlight (~2.8% acceptance rate)!
+
+⚡ **[2024.04]** Our paper has been selected as **CVPR 2024 Highlight** (~2.8% acceptance rate)!
 
 ## Novel View Synthesis
 <img src="https://github.com/WU-CVGL/SCINeRF/blob/main/doc/airplants_25_spiral_200000_rgb-ezgif.com-video-to-gif-converter.gif" width="30%"> <img src="https://github.com/WU-CVGL/SCINeRF/blob/main/doc/factory_all_spiral_200000_rgb-ezgif.com-video-to-gif-converter.gif" width="45%">
