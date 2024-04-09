@@ -2,7 +2,7 @@
 
 **[Paper](https://arxiv.org/abs/2403.20018)**
 
-**[Yunhao Li](https://yunhaoli2020.github.io/), Xiaodong Wang, Ping Wang, [Xin Yuan](https://sites.google.com/site/eiexyuan/) and [Peidong Liu](https://ethliup.github.io/) [CVPR 2024]**
+**[Yunhao Li](https://yunhaoli2020.github.io/), Xiaodong Wang, Ping Wang, [Xin Yuan](https://sites.google.com/site/eiexyuan/) and [Peidong Liu](https://ethliup.github.io/) [CVPR 2024 Highlight]**
 
 ![teaser2](./doc/fig1_7(2).jpg)
 
