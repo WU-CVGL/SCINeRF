@@ -15,6 +15,7 @@ factor_pose_novel = 2.0
 i_novel_view = 200000
 
 N_rand = 5000
+N_iters = 100000
 deblur_images = 8
 
 N_samples = 64
