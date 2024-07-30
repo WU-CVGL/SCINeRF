@@ -19,7 +19,7 @@ deblur_images = 8
 
 N_samples = 64
 N_importance = 64
-
+N_iters = 100000
 use_viewdirs = True
 raw_noise_std = 1.0
 
