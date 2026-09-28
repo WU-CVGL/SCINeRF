@@ -44,7 +44,7 @@ pip install -r requirements.txt
 
 ### 2. Download datasets
 
-You can download the data [here](https://drive.google.com/file/d/19cR54NiB92-GjPQLm7DiojN1eTy7ECYE/view?usp=sharing).
+You can download the data [here](https://drive.google.com/file/d/1pPT2lXgqMsk7jnL3k1XDAqVlV-TPzsPI/view?usp=drive_link).
 
 Each scene contains an SCI measurement in 'meas.npy', and corresponding masks in 'mask.npy' (in some scenes they are 'mask_25.npy" and 'meas_25.npy').
 
@@ -54,7 +54,7 @@ Change the data path and other parameters (if needed) in `configs/cozy2room.txt`
 
 ### 4. Demo with our pre-trained model
 
-You can test our code and render retrieved images from compressed image with the provided checkpoints. To do this, you should first download the checkpoints [here](https://drive.google.com/file/d/1Ko6rNwcatG7RMAVRnHyPVj4EdfzIiwRM/view?usp=sharing), then put the weight file under the corresponding logs folder `./logs/cozy2room`, and then change the parameter `load_weights=True` in `cozy2room.txt`, finally run
+You can test our code and render retrieved images from compressed image with the provided checkpoints. To do this, you should first download the checkpoints [here](https://drive.google.com/file/d/1XUTttMuTc7ys7sYsFsTHiI5WNSCW37Ew/view?usp=drive_link), then put the weight file under the corresponding logs folder `./logs/cozy2room`, and then change the parameter `load_weights=True` in `cozy2room.txt`, finally run
 
 ```
 python train_cacti3.py --config configs/cozy2room.txt
